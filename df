@@ -1,0 +1,23 @@
+[33mcommit 1819823fef0df7ced34737127b6900d8afe984df[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: surya <gutpes@gmail.com>
+Date:   Mon Aug 3 22:14:05 2020 -0400
+
+    added signup
+
+[33mcommit 7ed49518a138ed85509ae66d952a6c1cdb845b8a[m
+Author: Dilip Reddy <merugudilipreddy@gmail.com>
+Date:   Sun Aug 2 23:14:55 2020 -0400
+
+    initial commit
+
+[33mcommit 8d61f8a4ba6832c7346248a67d4d21d6422222d8[m
+Author: sravanrao2 <sravanrao24@gmail.com>
+Date:   Sun Aug 2 22:53:04 2020 -0400
+
+    Navigation bar added
+
+[33mcommit b3e2f1aefb5cc2a2b91a864eefe2095a56ecb82d[m
+Author: sravanrao2 <sravanrao24@gmail.com>
+Date:   Sun Aug 2 22:46:37 2020 -0400
+
+    Project created, Mainpage added, Splash screen added.
