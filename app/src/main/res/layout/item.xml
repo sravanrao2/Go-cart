@@ -22,7 +22,7 @@
             tools:srcCompat="@tools:sample/avatars" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/receipe"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
@@ -34,7 +34,7 @@
             android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/priceitem"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
