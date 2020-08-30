@@ -30,6 +30,7 @@ public class HomeActivity extends AppCompatActivity {
                 replacefragment(new Cart());
             }
         });
+        replacefragment(new FlyerFragment());
     }
     private BottomNavigationView.OnNavigationItemSelectedListener navigationItemSelectedListener = new BottomNavigationView.OnNavigationItemSelectedListener() {
         @Override

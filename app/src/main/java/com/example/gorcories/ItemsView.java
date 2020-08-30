@@ -18,6 +18,10 @@ import com.google.firebase.firestore.Query;
 
 import java.util.ArrayList;
 import java.util.List;
+/**
+ *ItemsView class displays the items in the fragment when item button is clicked
+ *Initializes firebasefirestore and database reference
+ */
 
 public class ItemsView extends Fragment {
     View view;
@@ -25,7 +29,15 @@ public class ItemsView extends Fragment {
     private FirebaseFirestore db = FirebaseFirestore.getInstance();
     private CollectionReference notebookRef = db.collection("weekdays");
 
+    //provide a reference to the views for each data item
     private Itemadaptor adapter;
+    /**
+     * OnCreateView inflates the items_list layout and uses RecyclerView by giving Id of the recyclerView through findViewBYId
+     * @param inflater used to inflate any views in the fragment
+     * @param container the parent view to which the fragment UI is attached
+     * @param savedInstanceState previously saved state
+     * @return returns the view
+     */
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
@@ -41,11 +53,17 @@ public class ItemsView extends Fragment {
         recyclerView.setAdapter(adapter);
         return view;
     }
+    /**
+     * onStart invokes two methods they are onStart and startListening
+     */
     @Override
     public void onStart() {
         super.onStart();
         adapter.startListening();
     }
+    /**
+     * onStop invokes two methods they are onStop and stopListening
+     */
     @Override
     public void onStop() {
         super.onStop();
