@@ -33,9 +33,9 @@ public class ItemsView extends Fragment {
     private Itemadaptor adapter;
     /**
      * OnCreateView inflates the items_list layout and uses RecyclerView by giving Id of the recyclerView through findViewBYId
-     * @param inflater
-     * @param container
-     * @param savedInstanceState
+     * @param inflater used to inflate any views in the fragment
+     * @param container the parent view to which the fragment UI is attached
+     * @param savedInstanceState previously saved state
      * @return returns the view
      */
     @Nullable
