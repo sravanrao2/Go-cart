@@ -20,6 +20,6 @@ public class ForgotPassword extends AppCompatActivity implements View.OnClickLis
 
     @Override
     public void onClick(View v) {
-        Toast.makeText(getApplicationContext(),"Password rsent link has been sent to email",Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(),"Password resent link has been sent to email",Toast.LENGTH_SHORT).show();
     }
 }

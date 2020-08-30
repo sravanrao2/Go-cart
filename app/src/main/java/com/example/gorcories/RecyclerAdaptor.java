@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 /**
- * This class acts as adapter class for cart items
+ * This class acts as adapter class for cart, items view
  * This class extends RecyclerView
  */
 public class RecyclerAdaptor extends RecyclerView.Adapter<RecyclerAdaptor.ViewHolder> {
@@ -19,13 +19,19 @@ public class RecyclerAdaptor extends RecyclerView.Adapter<RecyclerAdaptor.ViewHo
     List<Ingredients> ingredients;
     Cart mcontext;
     ItemsView vcontext;
-
+    /**
+     * This Recycleradapter class for cart view
+     *
+     */
 
     public RecyclerAdaptor(List<Ingredients> ingredients, Cart cart) {
         this.ingredients = ingredients;
         this.mcontext = cart;
     }
-
+    /**
+     * This Recycleradapter class for Items view
+     *
+     */
 
     public RecyclerAdaptor(List<Ingredients> ingredients, ItemsView items) {
         this.ingredients = ingredients;

@@ -8,7 +8,10 @@ import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
 
-
+/**
+ * This RetrofitClient class for used for connection.
+ *
+ */
 public class RetrofitClient {
 
 
@@ -17,7 +20,7 @@ public class RetrofitClient {
 
     /**
      *
-     * @return retrofit instance with an connection else return the error if the connection is unsccuessful
+     * @return retrofit instance with an connection else return the error if the connection is unsuccessful.
      */
     public static Retrofit getApiClient() {
 
